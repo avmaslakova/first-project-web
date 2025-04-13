@@ -7,6 +7,7 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f2f2f2;
 }
 
 /* HEADER*/
@@ -17,10 +18,6 @@
   max-height: 756px;
   /* выше установили ограничения для секции */
   position: relative;
-}
-
-.header-background {
-  background-color: #f2f2f2;
 }
 
 .logo {
@@ -96,8 +93,6 @@
 
 .description {
   width: 100%;
-  border: 1px solid #f2f2f2;
-  background-color: #f2f2f2;
 }
 
 .two-columns {
@@ -152,7 +147,55 @@
 
 /*DIGITS*/
 
+/*FEYNMAN*/
 
+.feynman {
+  position: relative;
+  height: 890px;
+  border-top: 1px solid #f2f2f2;
+}
+
+.feynman__image {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 637px;
+  width: 867px;
+  z-index: 0;
+}
+
+.feynman__title {
+  width: 648px;
+  margin: 100px auto 70px;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+  position: relative;
+  z-index: 1;
+}
+
+.feynman__subtitle {
+  text-align: center;
+  margin: auto;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  position: relative;
+  z-index: 1;
+}
+
+.feynman__link {
+  color: #2f80ed;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  z-index: 1;
+}
 
 
 /* и элемента с модификатором вида ключ-значение */
